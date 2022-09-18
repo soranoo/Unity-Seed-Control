@@ -2,11 +2,6 @@ using System;
 
 public abstract class SeedUtility
 {
-    public static String GenerateRandomSeed()
-    {
-        return UnityEngine.Random.Range(0, int.MaxValue).ToString();
-    }
-
     public static void SetSeed(string seed)
     {
         int seedInt;
